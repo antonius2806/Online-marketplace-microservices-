@@ -56,7 +56,7 @@ For each microservice, we will follow common 4 layers architecture:
 
     ![Architecture](product-service-getproducts.jpg)
 
-    - GET : localhost:8888/products/getProducts/2
+    - GET : localhost:8888/products/getProducts/10
 
     ![Architecture](product-service-getproducts-productsidlist.jpg)
 
@@ -64,11 +64,11 @@ For each microservice, we will follow common 4 layers architecture:
   cart-service :
   - POST : localhost:8888/shoppingcart/5/products
 
-    ![Architecture](product-service-addproduct.jpg)
+    ![Architecture](cart-service-useridproducts.jpg)
 
     - GET : localhost:8888/shoppingcart/5
 
-    ![Architecture](product-service-addproduct.jpg)
+    ![Architecture](cart-service-userid.jpg)
 
 
 
