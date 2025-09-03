@@ -64,11 +64,11 @@ For each microservice, we will follow common 4 layers architecture:
   cart-service :
   - POST : localhost:8888/shoppingcart/5/products
 
-    ![Architecture](cart-service-useridproducts.jpg)
+    ![Architecture](cart-service-shoppingcart-useridproducts.jpg)
 
     - GET : localhost:8888/shoppingcart/5
 
-    ![Architecture](cart-service-userid.jpg)
+    ![Architecture](cart-service-shoppingcart-userid.jpg)
 
 
 
