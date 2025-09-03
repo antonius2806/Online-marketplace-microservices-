@@ -48,9 +48,27 @@ For each microservice, we will follow common 4 layers architecture:
 ## API
 
   product-service :
-  - Post : localhost:8888/products/addProducts
+  - POST : localhost:8888/products/addProducts
 
-    ![Architecture](docs/images/diagram.pn)
+    ![Architecture](product-service-addproduct.jpg)
+
+    - GET : localhost:8888/products/getProducts
+
+    ![Architecture](product-service-getproducts.jpg)
+
+    - GET : localhost:8888/products/getProducts/2
+
+    ![Architecture](product-service-getproducts-productsidlist.jpg)
+
+
+  cart-service :
+  - POST : localhost:8888/shoppingcart/5/products
+
+    ![Architecture](product-service-addproduct.jpg)
+
+    - GET : localhost:8888/shoppingcart/5
+
+    ![Architecture](product-service-addproduct.jpg)
 
 
 
